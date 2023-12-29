@@ -124,8 +124,6 @@ function filterUnfundedOnly() {
     addGamesToPage(unfundedGames);
 }
 
-filterUnfundedOnly();
-
 // show only games that are fully funded
 function filterFundedOnly() {
     deleteChildElements(gamesContainer);
@@ -140,7 +138,6 @@ function filterFundedOnly() {
     addGamesToPage(fundedGames);
 }
 
-filterFundedOnly();
 
 // show all games
 function showAllGames() {
